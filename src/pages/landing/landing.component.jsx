@@ -22,8 +22,8 @@ function LandingPage() {
             <Universities/>
             <Ambassadors/>
             <Pricing/>
-            <LatestNews/>
-            <Testimonials/>
+            {/* <LatestNews/>
+            <Testimonials/> */}
         </div>
     )
 }

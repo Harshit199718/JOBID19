@@ -30,3 +30,47 @@
         }
     }
 }
+
+
+@media (max-width: 768px){
+    .our-solutions{
+        padding: 30px 20px;
+        flex-wrap: wrap;
+        .online-job-and-recruitment{
+            margin-top: 30px;
+            flex-direction: column!important;
+    
+            .solutions{
+                flex: 100%!important;
+                max-width: 100%!important;
+                padding: 40px;
+    
+                img{
+                    width: 100%;
+                }
+    
+                h1{
+                    font-size: 7em;
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width: 576px){
+    .our-solutions{
+        padding: 30px 20px;
+        flex-wrap: wrap;
+        .online-job-and-recruitment{
+    
+            .solutions{
+                padding: 10px;
+    
+                h1{
+                    font-size: 2.5em;
+                }
+            }
+        }
+    }
+}

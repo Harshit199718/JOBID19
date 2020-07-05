@@ -19,3 +19,32 @@
         }
     }
 }
+
+
+@media (max-width: 768px){
+    .sections_header{
+        h1{
+            font-size: 7em!important;
+        }
+
+        p{
+            font-size: 2em!important;
+        }
+    }
+}
+
+
+@media (max-width: 576px){
+    .landing-page{
+    .sections_header{
+        h1{
+            font-size: 3em!important;
+        }
+
+        p{
+            font-size: 1.2em!important;
+            padding: 0 2em;
+        }
+    }
+}
+}
