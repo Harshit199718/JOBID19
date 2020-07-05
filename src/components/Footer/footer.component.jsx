@@ -27,15 +27,15 @@ export class Footer extends Component {
                 <div className="footer-section">
                     <h5><a href="#">Social Links</a></h5>
                     <div className="icons">
-                        <div className="icon">
+                        <a target='_blank' href='https://www.facebook.com/JOBID19' className="icon">
                             <i className="fa fa-facebook"></i>
-                        </div>
-                        <div className="icon">
-                            <i className="fa fa-twitter"></i>
-                        </div>
-                        <div className="icon">
+                        </a> 
+                        <a target='_blank' href='linkedin.com/company/JOBID19' className="icon">
+                            <i className="fa fa-linkedin"></i>
+                        </a> 
+                        <a target='_blank' href='https://www.instagram.com/JOBID19/' className="icon">
                             <i className="fa fa-instagram"></i>
-                        </div>
+                        </a> 
                     </div>
                 </div>
             </div>

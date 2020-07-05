@@ -18,7 +18,6 @@ export class Pricing extends Component {
   }
   render() {
     const {prices} = this.state
-    console.log(prices)
     return (
       <div className="pricing">
         <div className="sections_header">

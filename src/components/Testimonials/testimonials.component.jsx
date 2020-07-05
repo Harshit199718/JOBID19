@@ -19,7 +19,6 @@ export class Testimonials extends Component {
   }
   render() {
     const {top_referrers,move} = this.state
-    console.log(top_referrers)
     return (
       <div className="testimonials">
         <div className="sections_header">

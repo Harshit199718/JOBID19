@@ -2,7 +2,7 @@
     padding: 12vw 8vw 6.6vw 8vw;
     background: #E4CDF5;
     position: relative;
-    z-index: -1;
+    // z-index: -1;
     margin-top: 10vw;
 
     display: flex;
@@ -14,6 +14,7 @@
         border-radius: 50%;
         z-index: 9;
     }
+    
 
     .wave-1, .wave-3{
         top: -10vw;
@@ -21,9 +22,12 @@
     }
 
     .wave-2{
-        top: -27vw;
+        top: -12.5vw;
         left: 36.1vw;
         background: #fff;
+        height: 16.5vw;
+        border-bottom-left-radius: 33vw;
+  border-bottom-right-radius: 33vw;
     }
 
     .wave-3{
@@ -77,6 +81,9 @@
                 align-items: center;
                 color: #fff;
                 margin: 0 .6vw;
+                text-decoration: none;
+                cursor: pointer;
+                
 
                 &:first-child{
                     margin-left: 0;
@@ -89,4 +96,58 @@
             }
         }
     }
+}
+
+
+@media (max-width: 576px){
+    .footer{
+    
+        flex-direction: column;
+    
+        .footer-section{
+            flex: 0 0 100%;
+            max-width: 100%;
+            margin: 0 auto;
+            text-align: center;
+    
+            h5{
+                font-size: 2em;
+                color: #732578;
+                margin-bottom: .7vw;
+            }
+    
+            p{
+                font-size: 1.5em;
+
+                &:last-child{
+                    margin-bottom: 10px;
+                }
+            }
+    
+            .icons{
+                margin-top: 10px;
+    
+                .icon{
+                    width: 4.5em;
+                    height: 4.5em;
+                    font-size: 1em;
+                    margin: 0 5px!important;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: #fff;
+                    margin: 0 .6vw;
+    
+                    &:first-child{
+                        margin-left: 0;
+                    }
+    
+                    &:last-child{
+                        border: .18vw solid #612A66;
+                        color: #612A66;
+                    }
+                }
+            }
+        }
+    }   
 }
