@@ -1,0 +1,90 @@
+.footer{
+    padding: 12vw 8vw 6.6vw 8vw;
+    background: #E4CDF5;
+    position: relative;
+
+    display: flex;
+
+    .wave{
+        position: absolute;
+        width: 33vw;
+        height: 33vw;
+        border-radius: 50%;
+        z-index: 9;
+    }
+
+    .wave-1, .wave-3{
+        top: -10vw;
+        background: #E4CDF5;
+    }
+
+    .wave-2{
+        top: -27vw;
+        left: 36.1vw;
+        background: #fff;
+    }
+
+    .wave-3{
+        background: #E4CDF5;
+        right: 1.6vw;
+    }
+
+    .wave-4{
+        top: -25vw;
+        left: -21.45vw;
+        background: #fff;
+    }
+
+    .wave-5{
+        top: -25vw;
+        right: -27.7vw;
+        background: #fff;
+    }
+    
+
+    .footer-section{
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+
+        padding: 0 3vw;
+        z-index: 10;
+
+        h5{
+            font-size: 1.7vw;
+            color: #732578;
+            margin-bottom: .7vw;
+        }
+
+        p{
+            font-size: 1.6vw;
+            margin: 0 0 .3vw 0;
+        }
+
+        .icons{
+            display: flex;
+            justify-content: flex-start;
+
+            .icon{
+                width: 3vw;
+                height: 3vw;
+                border: .15vw solid #fff;
+                border-radius: 50%;
+                font-size: 2vw;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: #fff;
+                margin: 0 .6vw;
+
+                &:first-child{
+                    margin-left: 0;
+                }
+
+                &:last-child{
+                    border: .18vw solid #612A66;
+                    color: #612A66;
+                }
+            }
+        }
+    }
+}

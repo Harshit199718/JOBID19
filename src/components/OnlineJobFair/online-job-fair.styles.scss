@@ -1,0 +1,96 @@
+.sections{
+    padding: 9vw 8vw;
+    text-align: center;
+
+    .img-more-info_container{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 6vw;
+
+        .img-more-info{
+            flex: 33.333333%;
+            padding: 2vw;
+
+            .img_container{
+                width: 100%;
+                background: #F2EFFF;
+                padding-top: 5vw;
+                border-radius: 4vw 4vw 0 0;
+                display: flex;
+
+                img{
+                    height: auto;
+
+                    &:first-child{
+                        flex: 0 0 45%;
+                        max-width: 45%;
+                        // width: 45%;
+                    }
+
+                    &:last-child{
+                        flex: 0 0 55%;
+                        max-width: 55%;
+                    // width: 55%;
+                    }
+                }
+            }
+
+            .more-info_container{
+                margin-top: 1.4vw;
+                width: 100%;
+                border: .2vw solid #762873;
+                border-radius: 1vw;
+                padding: 1vw 2vw;
+                text-align: center;
+                color: #762873;
+                cursor: pointer;
+
+                &:hover{
+                    background: #762873;
+                    color: #fff;
+                }
+
+                h5{
+                    font-size: 2.4vw;
+                    padding: .7vw 0;
+
+                    &:last-child{
+                        font-size: 1.3vw;
+
+                        .fa{
+                            margin-left: 10px;
+                        }
+                    }
+                }
+
+                .more-info_header{
+                    font-weight: bolder;
+                    font-family: sans-serif;
+                    border-bottom: 1px solid rgba(0,0,0,.3);
+                }
+            }
+        }
+    }
+
+    .arrow_container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2vw;
+
+        .arrow{
+            width: 3.3vw;
+            height: 3.3vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            background: #762873;
+            border-radius: 50%;
+            margin: .5vw;
+            font-size: 2vw;
+            font-weight: normal;
+        }
+    }
+}

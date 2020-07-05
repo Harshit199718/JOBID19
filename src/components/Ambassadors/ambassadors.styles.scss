@@ -1,0 +1,66 @@
+.ambassadors{
+    padding: 9vw 8vw 6.6vw 8vw;
+    background: #FAFAFA;
+
+    .ranks_container{
+        display: flex;
+        justify-content: center;
+        margin-top: 4vw;
+
+        .ranks{
+            // flex: 33.333333%;
+            // max-width: 33.333333%;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: #712175;
+            padding: 2vw;
+
+            .circle{
+                width: 21vw;
+                height: 21vw;
+                border-radius: 50%;
+                border: 2vw solid #f4e9f2;
+                background: #712175;
+            }
+
+            h2{
+                font-size: 2.5vw;
+                font-family: sans-serif;
+                font-weight: 800;
+                margin-top: 2vw;
+            }
+
+            h5{
+                font-size: 2.1vw;
+                font-weight: normal;
+
+                &:last-child{
+                    font-size: 1.5vw;
+                }
+            }
+        }
+    }
+
+    .arrow_container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2vw;
+
+        .arrow{
+            width: 3.3vw;
+            height: 3.3vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            background: #762873;
+            border-radius: 50%;
+            margin: .5vw;
+            font-size: 2vw;
+            font-weight: normal;
+        }
+    }
+}

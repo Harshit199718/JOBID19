@@ -1,0 +1,43 @@
+.universities{
+    padding: 9vw 8vw 6.6vw 8vw;
+
+
+    .top-universities_container{
+        padding-top: 3vw;
+        .university{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            border-radius: 20px;
+            box-shadow: 0 4px 8px 0 rgba(156, 146, 146, 0.2), 0 6px 20px 0 rgba(207, 201, 201, 0.19);
+            padding: 5px 7px;
+
+            &:nth-of-type(1n + 2){
+                margin-top: 2vw;
+            }
+
+            .number, .total{
+                padding: 1vw 1.2vw;
+                border-radius: 6px;
+                background: #896689;
+                color: #fff;
+
+                p{
+                    font-size: 1.6vw;
+                }
+            }
+
+            &>p{
+                font-size: 1.6vw;
+                padding-left: 2vw;
+            }
+
+            .total{
+                background: #712175;
+                margin-left: auto;
+            }
+
+
+        }
+    }
+}

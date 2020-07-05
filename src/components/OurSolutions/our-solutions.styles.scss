@@ -1,0 +1,32 @@
+.our-solutions{
+    padding: 9vw 8vw;
+    background: #FAFAFA;
+
+    .online-job-and-recruitment{
+        display: flex;
+        margin-top: 3vw;
+
+        .solutions{
+            flex: 50%;
+            max-width: 50%;
+            position: relative;
+            padding: 4vw;
+
+            img{
+                width: 100%;
+            }
+
+            h1{
+                font-size: 4vw;
+                text-align: center;
+                font-weight: normal;
+                font-family: sans-serif;
+                color: #fff;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+        }
+    }
+}

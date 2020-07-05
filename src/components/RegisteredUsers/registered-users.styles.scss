@@ -1,0 +1,40 @@
+.registered-users {
+  background: #fafafa;
+  padding: 9vw 8vw 6.6vw 8vw;
+
+  .total-users {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4vw;
+
+    .users {
+      width: 30vw;
+      height: 30vw;
+      border: 2vw solid #f4e9f2;
+      background: #712175;
+      border-radius: 50%;
+      color: #fff;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: 0 3.5vw;
+
+      h1 {
+        font-size: 8vw;
+        font-family: sans-serif;
+
+        font-weight: 500;
+      }
+
+      h5 {
+        font-size: 2.7vw;
+        font-family: sans-serif;
+
+        font-weight: normal;
+      }
+    }
+  }
+}

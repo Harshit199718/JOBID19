@@ -1,0 +1,36 @@
+.header{
+    padding: 1vw 4.8vw .8vw 4.8vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #E0E0E0;
+
+    .logo{
+        font-size: 2.4vw;
+        // font-size: 2.3em;
+        font-weight: normal;
+        color: #69276B;
+    }
+
+    ul{
+        list-style: none;
+        display: flex;
+        align-items: center;
+
+        li{
+            font-size: 1.8vw;
+            font-weight: 600;
+            opacity: .8;
+            margin: 0;
+
+            a{
+                text-decoration: none;
+                color: black;
+            }
+
+            &:nth-child(2){
+                margin: 0 1em 0 2em;
+            }
+        }
+    }
+}
